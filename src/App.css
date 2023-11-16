@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.latoFont{
+  font-family: 'Lato', sans-serif;
+}
+
+.cuadro1{
+  z-index: 1;
+
+}
+
+.cuadro1::after{
+  content: '';
+  position: absolute;
+  width: 28rem;
+  height: 28rem;
+  background-color: #8509E3;
+  border-radius: 5%;
+  transform: rotate(-25deg);
+  z-index: -1;
+  top: 14rem;
+  box-shadow: inset 0px 0px 25px #00000060;
+  right: 12.5rem;
+}
+.cuadro2::before{
+  content: '';
+  position: absolute;
+  width: 28rem;
+  height: 28rem;
+  background-color: #6EDC9A;
+  border-radius: 5%;
+  transform: rotate(-9deg);
+  z-index: -1;
+  box-shadow: inset 0px 0px 10px #00000060;
+  top: 13rem;
+}
+
+.circle1{
+  z-index: 1;
+}
+
+.circle1::before{
+  content: '';
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #6EDC9A;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.5;
+
+}
+
+
+.circle2::after{
+  content: '';
+  position: absolute;
+  width: 3.85rem;
+  height: 3.85rem;
+  background-color: #8509E3;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.2;
+  top: 8rem;
+  left: 8rem;
+}
+.circle3{
+  z-index: 1;
+}
+
+.circle3::before{
+  content: '';
+  position: absolute;
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: #6EDC9A;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.5;
+  bottom: 12rem;
+  right: 4.9rem;
+
+}
+
+
+.circle4::after{
+  content: '';
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: #8509E3;
+  border-radius: 50%;
+  z-index: -1;
+ right: 5rem;
+ top: 12rem;
+ opacity: 0.2;
+}
